@@ -20,6 +20,23 @@ export const useStyles = makeStyles((theme) => ({
     display: 'flex',
     color: '#ffffff',
   },
+  navy: {
+    backgroundColor: '#82003c',
+  },
+  cards: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  media: {
+    width: '200px',
+  },
+  card: {
+    margin: 10,
+  },
+  space: {
+    padding: 10,
+  },
   center: {
     display: 'flex',
     justifyContent: 'center',
